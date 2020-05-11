@@ -1,0 +1,511 @@
+body {
+	font-family: arial;
+}
+
+html {}
+
+/*=========NAVBAR START===========*/
+.navbar {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-bottom: 2px solid #ffff;
+}
+
+.nav-item .nav-link {
+	text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: rgb(255, 255, 255);
+}
+
+/*=========NAVBAR END===========*/
+
+/*=========HEAD SECTION START===========*/
+.head-section img {
+	height: 500px;
+	margin-left: 20px;
+}
+
+.head-section {
+	background-image: linear-gradient(rgba(51, 51, 51, 0.6), rgba(51, 51, 51, 0.6)), url(../img/portfolio-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	min-height: 610px;
+}
+
+.head-section img {
+	border-bottom: 3px solid #fff;
+}
+
+.main-row {
+	padding-top: 60px;
+}
+
+h1.ah-headline.custom-color.clip.is-full-width {
+	color: #ffc107;
+}
+
+.head-section h2 {
+	font-weight: bold;
+
+}
+
+.head-section h4 {
+	font-weight: bold;
+}
+
+.icons .frist {
+	font-size: 17px;
+	width: 35px;
+	height: 35px;
+	line-height: 31px;
+	text-align: center;
+	border: 3px solid #f861f3;
+	color: #f861f3;
+	border-radius: 50%;
+	display: inline-block;
+	margin: auto;
+	transition: .6s;
+}
+
+.icons .frist:hover {
+	transform: rotate(360deg);
+	color: #fff;
+	background-color: #f861f3;
+}
+
+.icons .secend {
+	font-size: 17px;
+	width: 35px;
+	height: 35px;
+	line-height: 31px;
+	text-align: center;
+	border: 3px solid #ff0093;
+	color: #ff0093;
+	border-radius: 50%;
+	display: inline-block;
+	margin: auto;
+	transition: .6s;
+}
+
+.icons .secend:hover {
+	transform: rotate(360deg);
+	color: #fff;
+	background-color: #ff0093;
+}
+
+.icons .theard {
+	font-size: 17px;
+	width: 35px;
+	height: 35px;
+	line-height: 31px;
+	text-align: center;
+	border: 3px solid #3bcccc;
+	color: #3bcccc;
+	border-radius: 50%;
+	display: inline-block;
+	margin: auto;
+	transition: .6s;
+}
+
+.icons .theard:hover {
+	transform: rotate(360deg);
+	color: #fff;
+	background-color: #3bcccc;
+}
+
+.icons .four {
+	font-size: 17px;
+	width: 35px;
+	height: 35px;
+	line-height: 31px;
+	text-align: center;
+	border: 3px solid #efe83b;
+	color: #efe83b;
+	border-radius: 50%;
+	display: inline-block;
+	margin: auto;
+	transition: .6s;
+}
+
+.icons .four:hover {
+	transform: rotate(360deg);
+	color: #fff;
+	background-color: #efe83b;
+}
+
+.icons .five {
+	font-size: 17px;
+	width: 35px;
+	height: 35px;
+	line-height: 31px;
+	text-align: center;
+	border: 3px solid #95ff06;
+	color: #95ff06;
+	border-radius: 50%;
+	display: inline-block;
+	margin: auto;
+	transition: .6s;
+}
+
+.icons .five:hover {
+	transform: rotate(360deg);
+	color: #fff;
+	background-color: #95ff06;
+}
+
+/*=========HEAD SECTION END===========*/
+
+
+/*=========SERVICE SECTION START===========*/
+#service-section h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#service-section h2::after {
+	content: "";
+	background-color: #333;
+	height: 3px;
+	display: block;
+	width: 80px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+#service-section .service-title {
+	width: 50%;
+	margin: auto;
+}
+
+#service-section .icon {
+	font-size: 35px;
+}
+
+#service-section h4 {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+#service-section .col-md-4:hover {
+	cursor: pointer;
+	color: #3a91d1;
+	transition: .4s;
+}
+
+/*=========SERVICE SECTION END===========*/
+
+
+/*=========SKILLS SECTION START===========*/
+svg.radial-progress {
+	height: auto;
+	max-width: 200px;
+	padding: 1em;
+	transform: rotate(-90deg);
+	width: 100%;
+}
+
+svg.radial-progress circle {
+	fill: rgba(0, 0, 0, 0);
+	stroke: #fff;
+	stroke-dashoffset: 219.91148575129;
+	stroke-width: 10;
+}
+
+svg.radial-progress circle.incomplete {
+	opacity: 0.25;
+}
+
+svg.radial-progress circle.complete {
+	stroke-dasharray: 219.91148575129;
+}
+
+svg.radial-progress text {
+	fill: #fff;
+	text-anchor: middle;
+	font-size: 15px;
+}
+
+
+
+svg.radial-progress circle {
+	stroke-width: 6;
+}
+
+svg.html circle {
+	stroke: #eb2727;
+}
+
+svg.jQuary circle {
+	stroke: #27c5eb;
+}
+
+svg.css circle {
+	stroke: #c71cf0;
+}
+
+svg.bootstart circle {
+	stroke: #27eb63;
+}
+
+#skill-section h3 {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#skill-section h2 {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+#skill-section h2::after {
+	content: "";
+	background-color: #ffffff;
+	height: 3px;
+	display: block;
+	width: 80px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+#skill-section .skill-title {
+	width: 50%;
+	margin: auto;
+}
+
+/*=========SKILLS SECTION END===========*/
+
+
+
+/*=========TEAM SECTION START===========*/
+#team-section .team-img img {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+}
+
+#team-section h3 {
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+#team-section b {
+	color: #247ffa;
+}
+
+.team-icon .fa {
+	width: 30px;
+	height: 30px;
+	border: 3px solid #333;
+	display: inline-block;
+	line-height: 26px;
+	border-radius: 50%;
+
+}
+
+.team-icon .fa:hover {
+	color: #fff;
+	background-color: orange;
+	border-color: orange;
+	transition: .6s;
+}
+
+#team-section h2 {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+#team-section h2::after {
+	content: "";
+	background-color: #999;
+	height: 3px;
+	display: block;
+	width: 80px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.team-text {
+	width: 50%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+/*=========TEAM SECTION END===========*/
+
+
+/*==== COUNTER SECTION START =====*/
+#counter-section {
+	background-image: linear-gradient(rgba(51, 51, 51, 0.6), rgba(51, 51, 51, 0.6)), url(../img/d.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+.single-fact {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#counter-section .fa {
+	font-size: 35px;
+}
+
+#conter-section h1 {
+	margin-bottom: -5px;
+}
+
+h1.counter {
+	margin-bottom: -7px;
+}
+
+/*==== COUNTER SECTION END =====*/
+
+
+/*==== TESTIMONIAL SECTION START =====*/
+.img-area img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-bottom: -10px;
+}
+
+.carousel-caption {
+	position: static;
+}
+
+.carousel-caption h3 {
+	font-weight: 600;
+	text-transform: uppercase;
+    font-family: cursive;
+}
+
+.carousel-caption b {
+	color: orange;
+	text-transform: uppercase;
+    font-family: cursive;
+}
+.carousel-caption p {
+	width: 70%;
+	margin: auto;
+}
+
+.carousel-indicators {
+	margin-bottom: -20px;
+}
+
+/*==== TESTIMONIAL SECTION END =====*/
+
+/*==== CONTACT SECTION START =====*/
+#contact-section .row {
+	width: 70%;
+	margin: auto;
+}
+
+#contact-section h2 {
+	font-weight: 600;
+}
+
+#contact-section h2::after {
+	content: "";
+	background-color: #999;
+	height: 3px;
+	display: block;
+	width: 80px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+#contact-section p {
+	width: 50%;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+/*==== CONTACT SECTION END =====*/
+
+/*==== FOOTER SECTION START =====*/
+#footer-section {
+	background-color: #052A3E;
+}
+
+.footer-icon .fa {
+	width: 45px;
+	height: 45px;
+	background-color: #85b0be;
+	font-size: 20px;
+	color: #fff;
+	line-height: 45px;
+	border-radius: 50%;
+	transition: .2s;
+}
+
+.footer-icon .fa:hover {
+	background-color: orange;
+	transform: rotate(360deg);
+}
+
+#footer-section .footer-text p {
+	margin-top: -20px;
+}
+
+/*==== FOOTER SECTION END =====*/
+
+/*=========MEDIA QUARY===========*/
+@media (max-width:575px) {
+	.head-section {
+		text-align: center;
+	}
+
+	.head-section img {
+		height: 500px;
+		margin-left: -31px;
+	}
+
+	.main-row .col-md-6 {
+		padding-left: 0px;
+	}
+
+	.navbar-nav {
+		text-align: center;
+	}
+
+	#service-section .service-title {
+		width: 100%;
+		margin: auto;
+	}
+
+	#skill-section .skill-title {
+		width: 100%;
+		margin: auto;
+	}
+
+	#team-section .team-img img {
+		margin-top: 10px;
+	}
+
+	.team-text {
+		width: 100%;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+
+	.carousel-caption p {
+		width: 100%;
+		margin: auto;
+	}
+
+	#contact-section .row {
+		width: 100%;
+		margin: auto;
+	}
+
+	#contact-section p {
+		width: 100%;
+		margin: auto;
+		margin-bottom: 25px;
+	}
+}
